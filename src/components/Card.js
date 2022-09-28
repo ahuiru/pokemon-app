@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "./Card.css";
 
 export const Card = ({pokemon}) => {
   return (
-    <div className='Card'>
+    <div className='card'>
       <div className='cardImg'>
         <img src={pokemon.sprites.front_default} alt="" />
       </div>
