@@ -48,7 +48,7 @@ function App() {
     setPrevURL(data.previous);
     setLoading(false);
   }
-
+  
   const handlePrevPage = async() => {
     if (!prevURL) return;
 
